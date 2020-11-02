@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/style.scss"
+	],
+	"sourcesContent": [
+		"@import \"style\";",
+		"body{\r\n\tbackground-color: tomato;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,CAAA,EACH,gBAAgB,EAAE,MAAM,GACxB"
+}
