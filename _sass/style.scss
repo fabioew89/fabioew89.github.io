@@ -1,8 +1,10 @@
 // Variaveis
-$color-default: white;
+$default-color: white;
+$default-hover: #f39c12;
 
 // Importes
 @import "reset";
 @import "body";
+@import "header";
 @import "social";
 @import "footer";

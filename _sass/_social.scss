@@ -1,8 +1,19 @@
 div.social{
 	p{
+		height: 15vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
 		a{
-			padding: 0 1rem;
-			font-size: 24pt;
+			font-size: 30pt;
+			padding: 0 .5rem;
+			transition: all .2s ease;
+
+			&:hover{
+				font-size: 40pt;
+				color: $default-hover;
+			}
 		}
 	}
 }

@@ -1,9 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
-*, a { font-family: 'amatic sc', cursive; box-sizing: border-box; color: white; padding: 0; border: 0; margin: 0; }
+* { font-family: 'amatic sc', cursive; box-sizing: border-box; }
+
+* p, * a { margin: 0; padding: 0; border: 0; color: white; }
 
 body { background-color: #2d3436; display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100vh; text-align: center; }
 
-div.social p a { padding: 0 1rem; font-size: 24pt; }
+header h1 { font-size: 40pt; }
+
+div.social p { height: 15vh; display: flex; justify-content: center; align-items: center; }
+
+div.social p a { font-size: 30pt; padding: 0 .5rem; transition: all .2s ease; }
+
+div.social p a:hover { font-size: 40pt; color: #f39c12; }
 
 footer p { font-size: 12pt; }
 

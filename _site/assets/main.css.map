@@ -6,17 +6,19 @@
 		"_sass/style.scss",
 		"_sass/_reset.scss",
 		"_sass/_body.scss",
+		"_sass/_header.scss",
 		"_sass/_social.scss",
 		"_sass/_footer.scss"
 	],
 	"sourcesContent": [
 		"@import \"style\";",
-		"// Variaveis\r\n$color-default: white;\r\n\r\n// Importes\r\n@import \"reset\";\r\n@import \"body\";\r\n@import \"social\";\r\n@import \"footer\";",
-		"@import url(\"https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap\");\r\n\r\n*, a {\r\n\tfont-family: 'amatic sc', cursive;\r\n\tbox-sizing: border-box;\r\n\tcolor: $color-default;\r\n\tpadding: 0;\r\n\tborder: 0;\r\n\tmargin: 0;\r\n}",
+		"// Variaveis\r\n$default-color: white;\r\n$default-hover: #f39c12;\r\n\r\n// Importes\r\n@import \"reset\";\r\n@import \"body\";\r\n@import \"header\";\r\n@import \"social\";\r\n@import \"footer\";",
+		"@import url(\"https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap\");\r\n\r\n*{\r\n\tfont-family: 'amatic sc', cursive;\r\n\tbox-sizing: border-box;\r\n\r\n\tp, a,{\r\n\t\tmargin: 0;\r\n\t\tpadding: 0;\r\n\t\tborder: 0;\r\n\r\n\t\tcolor: $default-color\r\n\t}\r\n}",
 		"body{\r\n\tbackground-color: #2d3436;\r\n\t\r\n\t// flex box\r\n\tdisplay: flex;\r\n\tjustify-content: center;\r\n\talign-items: center;\r\n\tflex-direction: column;\r\n\r\n\theight: 100vh;\r\n\ttext-align: center;\r\n}",
-		"div.social{\r\n\tp{\r\n\t\ta{\r\n\t\t\tpadding: 0 1rem;\r\n\t\t\tfont-size: 24pt;\r\n\t\t}\r\n\t}\r\n}",
+		"header{\r\n\th1{\r\n\t\tfont-size: 40pt;\r\n\t}\r\n}",
+		"div.social{\r\n\tp{\r\n\t\theight: 15vh;\r\n\t\tdisplay: flex;\r\n\t\tjustify-content: center;\r\n\t\talign-items: center;\r\n\r\n\t\ta{\r\n\t\t\tfont-size: 30pt;\r\n\t\t\tpadding: 0 .5rem;\r\n\t\t\ttransition: all .2s ease;\r\n\r\n\t\t\t&:hover{\r\n\t\t\t\tfont-size: 40pt;\r\n\t\t\t\tcolor: $default-hover;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}",
 		"footer{\r\n\tp{\r\n\t\tfont-size: 12pt;\r\n\r\n\t\tspan{\r\n\t\t\tfont-size: 10pt;\r\n\t\t\tcolor: rgba(255,255,255,.5);\r\n\t\t}\r\n\t}\r\n}"
 	],
 	"names": [],
-	"mappings": "AEAA,OAAO,CAAC,+EAAI;AAEZ,AAAA,CAAC,EAAE,CAAC,CAAC,EACJ,WAAW,EAAE,oBAAoB,EACjC,UAAU,EAAE,UAAU,EACtB,KAAK,EDJU,KAAK,ECKpB,OAAO,EAAE,CAAC,EACV,MAAM,EAAE,CAAC,EACT,MAAM,EAAE,CAAC,GACT;;ACTD,AAAA,IAAI,CAAA,EACH,gBAAgB,EAAE,OAAO,EAGzB,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,MAAM,EACvB,WAAW,EAAE,MAAM,EACnB,cAAc,EAAE,MAAM,EAEtB,MAAM,EAAE,KAAK,EACb,UAAU,EAAE,MAAM,GAClB;;ACXD,AAEE,GAFC,AAAA,OAAO,CACT,CAAC,CACA,CAAC,CAAA,EACA,OAAO,EAAE,MAAM,EACf,SAAS,EAAE,IAAI,GACf;;ACLH,AACC,MADK,CACL,CAAC,CAAA,EACA,SAAS,EAAE,IAAI,GAMf;;AARF,AAIE,MAJI,CACL,CAAC,CAGA,IAAI,CAAA,EACH,SAAS,EAAE,IAAI,EACf,KAAK,EAAE,wBAAoB,GAC3B"
+	"mappings": "AEAA,OAAO,CAAC,+EAAI;AAEZ,AAAA,CAAC,CAAA,EACA,WAAW,EAAE,oBAAoB,EACjC,UAAU,EAAE,UAAU,GAStB;;AAXD,AAIC,CAJA,CAIA,CAAC,EAJF,CAAC,CAIG,CAAC,CAAC,EACJ,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,EACV,MAAM,EAAE,CAAC,EAET,KAAK,EDVS,KAAK,GCWnB;;ACZF,AAAA,IAAI,CAAA,EACH,gBAAgB,EAAE,OAAO,EAGzB,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,MAAM,EACvB,WAAW,EAAE,MAAM,EACnB,cAAc,EAAE,MAAM,EAEtB,MAAM,EAAE,KAAK,EACb,UAAU,EAAE,MAAM,GAClB;;ACXD,AACC,MADK,CACL,EAAE,CAAA,EACD,SAAS,EAAE,IAAI,GACf;;ACHF,AACC,GADE,AAAA,OAAO,CACT,CAAC,CAAA,EACA,MAAM,EAAE,IAAI,EACZ,OAAO,EAAE,IAAI,EACb,eAAe,EAAE,MAAM,EACvB,WAAW,EAAE,MAAM,GAYnB;;AAjBF,AAOE,GAPC,AAAA,OAAO,CACT,CAAC,CAMA,CAAC,CAAA,EACA,SAAS,EAAE,IAAI,EACf,OAAO,EAAE,OAAO,EAChB,UAAU,EAAE,YAAY,GAMxB;;AAhBH,AAYG,GAZA,AAAA,OAAO,CACT,CAAC,CAMA,CAAC,CAKE,KAAK,CAAA,EACN,SAAS,EAAE,IAAI,EACf,KAAK,EJZO,OAAO,GIanB;;ACfJ,AACC,MADK,CACL,CAAC,CAAA,EACA,SAAS,EAAE,IAAI,GAMf;;AARF,AAIE,MAJI,CACL,CAAC,CAGA,IAAI,CAAA,EACH,SAAS,EAAE,IAAI,EACf,KAAK,EAAE,wBAAoB,GAC3B"
 }
