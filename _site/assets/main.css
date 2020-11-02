@@ -1,3 +1,12 @@
-body { background-color: tomato; }
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+*, a { font-family: 'amatic sc', cursive; box-sizing: border-box; color: white; padding: 0; border: 0; margin: 0; }
+
+body { background-color: #2d3436; display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100vh; text-align: center; }
+
+div.social p a { padding: 0 1rem; font-size: 24pt; }
+
+footer p { font-size: 12pt; }
+
+footer p span { font-size: 10pt; color: rgba(255, 255, 255, 0.5); }
 
 /*# sourceMappingURL=main.css.map */
