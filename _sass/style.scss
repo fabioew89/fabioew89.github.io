@@ -1,10 +1,13 @@
 // Variaveis
 $default-color: white;
-$default-hover: #f39c12;
+$default-hover: tomato;
+
+$default-transition: all 150ms ease;
 
 // Importes
 @import "reset";
 @import "body";
 @import "header";
 @import "social";
+@import "contato";
 @import "footer";

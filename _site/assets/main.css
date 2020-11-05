@@ -1,20 +1,32 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
-* { font-family: 'amatic sc', cursive; box-sizing: border-box; }
+* { box-sizing: border-box; font-family: 'amatic sc', cursive; }
 
-* p, * a, * h1 { margin: 0; padding: 0; border: 0; color: white; }
+* h1, * p, * a { margin: 0; padding: 0; border: 0; color: white; }
 
 body { background-color: #2d3436; display: flex; justify-content: center; align-items: center; flex-direction: column; height: 100vh; text-align: center; }
 
+header { margin-bottom: 1rem; }
+
 header h1 { font-size: 40pt; }
 
-div.social p { height: 15vh; display: flex; justify-content: center; align-items: center; }
+div.social p { height: 10vh; width: 100vw; display: flex; justify-content: center; align-items: center; }
 
-div.social p a { font-size: 30pt; padding: 0 .5rem; transition: all .2s ease; }
+div.social p a { font-size: 30pt; padding: 0 .5rem; transition: all 150ms ease; }
 
-div.social p a:hover { font-size: 40pt; color: #f39c12; }
+div.social p a:hover { font-size: 40pt; color: tomato; }
+
+.contato { height: 15vh; width: 100vw; display: flex; justify-content: center; align-items: center; }
+
+.contato p a { transition: all 150ms ease; border: .2rem solid white; border-radius: 5rem; padding: .5rem 3rem; box-shadow: 0 0.3rem 0 tomato; display: inline-block; color: white; font-size: 18pt; font-weight: bolder; }
+
+.contato p a:hover { color: tomato; text-decoration: none; }
+
+.contato p a:active { box-shadow: none; transform: translatey(5px); }
 
 footer p { font-size: 12pt; }
 
-footer p span { font-size: 10pt; color: rgba(255, 255, 255, 0.5); }
+footer p a:hover { color: tomato; }
+
+footer p span { font-size: 10pt; color: rgba(255, 255, 255, 0.3); }
 
 /*# sourceMappingURL=main.css.map */

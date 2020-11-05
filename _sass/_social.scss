@@ -1,6 +1,8 @@
 div.social{
 	p{
-		height: 15vh;
+		height: 10vh;
+		width: 100vw;
+
 		display: flex;
 		justify-content: center;
 		align-items: center;
@@ -8,7 +10,7 @@ div.social{
 		a{
 			font-size: 30pt;
 			padding: 0 .5rem;
-			transition: all .2s ease;
+			transition: $default-transition;
 
 			&:hover{
 				font-size: 40pt;

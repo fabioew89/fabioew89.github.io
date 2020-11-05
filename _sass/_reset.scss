@@ -1,14 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
 
 *{
-	font-family: 'amatic sc', cursive;
 	box-sizing: border-box;
+	font-family: 'amatic sc', cursive;
 
-	p, a, h1{
+	h1, p, a{
 		margin: 0;
 		padding: 0;
 		border: 0;
+		color: $default-color;
 
-		color: $default-color
 	}
 }

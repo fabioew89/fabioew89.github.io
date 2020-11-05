@@ -2,9 +2,13 @@ footer{
 	p{
 		font-size: 12pt;
 
+		a:hover{
+			color: $default-hover;
+		}
+
 		span{
 			font-size: 10pt;
-			color: rgba(255,255,255,.5);
+			color: rgba(255,255,255,.3);
 		}
 	}
 }
