@@ -1,0 +1,10 @@
+div.pages-layouts{
+	width: 50vw;
+	text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+	div.pages-layouts{
+		width: 75vw;
+	}		
+}

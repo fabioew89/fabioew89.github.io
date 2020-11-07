@@ -1,6 +1,5 @@
-.contato{
+div.contato{
 	height: 15vh;
-	width: 100vw;
 
 	display: flex;
 	justify-content: center;
@@ -9,7 +8,7 @@
 	p{
 		a{
 			transition: $default-transition;
-			border: .2rem solid white;
+			border: .2rem solid $default-color;
 			border-radius: 5rem;
 			padding: .5rem 3rem;
 			box-shadow: 0 .3rem 0 $default-hover;

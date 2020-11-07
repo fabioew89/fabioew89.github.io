@@ -1,12 +1,12 @@
 body{
-	background-color: #2d3436;
+	background-color: $default-bg-color;
+	height: 100vh;
 	
-	// flex box
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
 
-	height: 100vh;
 	text-align: center;
+
 }

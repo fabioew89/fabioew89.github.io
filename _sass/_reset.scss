@@ -3,12 +3,15 @@
 *{
 	box-sizing: border-box;
 	font-family: 'amatic sc', cursive;
+	// border: 1px solid tomato;
+}
 
-	h1, p, a{
-		margin: 0;
-		padding: 0;
-		border: 0;
-		color: $default-color;
+h1, h2, h3, h4, h5, h6, p, a{
+	color: $default-color;
+}
 
+a{
+	&:hover{
+		color: $default-hover;
 	}
 }

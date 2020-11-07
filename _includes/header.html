@@ -1,4 +1,10 @@
 <header>
 	<h1>{{- site.title -}}</h1>
 	<p>{{- site.description -}}</p>
+
+	<div class="navbar">
+		{% for page in site.pages %}
+		<p><a href="{{ page.url }}" title="Apenas mais um about =)">{{ page.title }}</a></p>
+		{% endfor%}	
+	</div>
 </header>
