@@ -1,10 +1,20 @@
 nav.navbar{
 	padding: 0;
 
+<<<<<<< HEAD
 	display: flex;
 	flex-direction: row-reverse;
 
 	p{
 		margin: 0 .5rem;
 	}
+=======
+
+	p{
+		display: flex;
+		flex-direction: row-reverse;
+		margin: 0 .5rem;
+	}
+
+>>>>>>> 33187f04b3468f22ef4447872770d924ef0d3c03
 }
