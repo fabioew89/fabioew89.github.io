@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
-* { box-sizing: border-box; font-family: 'amatic sc', cursive; }
+* { box-sizing: border-box; font-family: 'amatic sc', cursive; border: 1px solid lightblue; }
 
 h1, h2, h3, h4, h5, h6, p, a { color: white; }
 
@@ -10,6 +10,10 @@ body { background-color: #2d3436; height: 100vh; display: flex; justify-content:
 header h1 { font-size: 40pt; }
 
 header div.navbar { display: flex; flex-direction: row-reverse; padding: 0; }
+
+nav.navbar { padding: 0; display: flex; flex-direction: row-reverse; }
+
+nav.navbar p { margin: 0 .5rem; }
 
 div.social p { height: 10vh; display: flex; justify-content: center; align-items: center; }
 
