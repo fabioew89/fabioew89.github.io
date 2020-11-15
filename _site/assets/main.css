@@ -3,6 +3,8 @@
 
 h1, h2, h3, h4, h5, h6, p, a { color: white; }
 
+p, a { font-size: 10pt; }
+
 a:hover { color: tomato; }
 
 body { background-color: #2d3436; height: 100vh; display: flex; justify-content: center; align-items: center; flex-direction: column; text-align: center; }

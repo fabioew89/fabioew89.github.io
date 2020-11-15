@@ -10,6 +10,10 @@ h1, h2, h3, h4, h5, h6, p, a{
 	color: $default-color;
 }
 
+p, a{
+	font-size: 10pt;
+}
+
 a{
 	&:hover{
 		color: $default-hover;
