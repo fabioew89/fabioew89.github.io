@@ -1,0 +1,20 @@
+div.social{
+	p{
+		height: 10vh;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		a{
+			font-size: 30pt;
+			padding: 0 .5rem;
+			transition: $default-transition;
+
+			&:hover{
+				font-size: 40pt;
+				color: $default-hover;
+			}
+		}
+	}
+}

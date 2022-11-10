@@ -1,0 +1,18 @@
+// Variaveis
+$default-color: white;
+$default-hover: tomato;
+$default-bg-color: #2d3436;
+
+$default-transition: all 150ms ease;
+
+// Imports
+@import "reset";
+@import "body";
+@import "header";
+@import "navbar";
+@import "social";
+@import "contato";
+@import "footer";
+
+// Layouts
+@import "pages";

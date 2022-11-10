@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap");
+
+*{
+	box-sizing: border-box;
+	font-family: 'amatic sc', cursive;
+	// border: 1px solid lightblue;
+}
+
+h1, h2, h3, h4, h5, h6, p, a{
+	color: $default-color;
+}
+
+p, a{
+	font-size: 10pt;
+}
+
+a{
+	&:hover{
+		color: $default-hover;
+	}
+}

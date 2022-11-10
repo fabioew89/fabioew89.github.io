@@ -1,0 +1,5 @@
+<nav class="navbar">
+	{% for page in site.pages %}
+	<p><a href="{{ page.url }}" title="{{ page.title }} =)">{{ page.title }}</a></p>
+	{% endfor%}	
+</nav>
