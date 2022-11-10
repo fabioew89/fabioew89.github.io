@@ -1,6 +1,6 @@
 // Variaveis
 $default-color: white;
-$default-hover: tomato;
+$default-hover: #f39c12;
 $default-bg-color: #2d3436;
 
 $default-transition: all 150ms ease;
@@ -8,11 +8,12 @@ $default-transition: all 150ms ease;
 // Imports
 @import "reset";
 @import "body";
+@import "pic_profile";
 @import "header";
 @import "navbar";
 @import "social";
-@import "contato";
 @import "footer";
+@import "contato";
 
 // Layouts
 @import "pages";
