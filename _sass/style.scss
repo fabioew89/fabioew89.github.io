@@ -1,14 +1,13 @@
 // Variaveis
-$default-color: white;
+$default-color: #ffffff;
 $default-hover: #ffd230;
 $default-bg-color: #2d3436;
-
 $default-transition: all 150ms ease;
 
 // Imports
 @import "reset";
 @import "body";
-@import "pic_profile";
+@import "profile_picture";
 @import "header";
 @import "navbar";
 @import "social";

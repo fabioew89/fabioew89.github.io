@@ -2,8 +2,11 @@ title: Fábio Ewerton
 email: fabioew89@gmail.com
 description: Mais um maravilhoso site.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://fabioew89.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://fabio.eti.br" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 plugins:
   - jekyll-feed
+
+# permalink: /:title:output_ext
+permalink: /:title
