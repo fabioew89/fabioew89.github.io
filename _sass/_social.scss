@@ -1,19 +1,28 @@
-div.social{
-	p{
-		height: 10vh;
+nav.social{	
+	height: 5vh;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
 
-		display: flex;
-		justify-content: center;
-		align-items: center;
+	margin-bottom: 1rem;
 
-		a{
-			font-size: 30pt;
-			padding: 0 .5rem;
-			transition: $default-transition;
+	ul{
+		padding: 0;
+		margin: 0;
 
-			&:hover{
-				font-size: 40pt;
-				color: $default-hover;
+		li{
+			display: inline-block;
+
+			a{
+				font-size: 30pt;
+				margin: 0 .3rem;
+				transition: $default-transition;
+
+				&:hover{
+					font-size: 45pt;
+					color: $default-hover;
+				}
 			}
 		}
 	}

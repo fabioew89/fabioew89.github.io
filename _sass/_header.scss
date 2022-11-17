@@ -1,5 +1,23 @@
 header{
-	h1{
-		font-size: 40pt;
+	display: flex;
+	align-items: center;
+
+	div.profile_picture {
+		margin: 0 1rem 1rem 0;
+
+		a{
+			border-radius: 15%;
+			display: inline-block;
+			transition: $default-transition;
+			box-shadow: 0 .6rem 0 rgba(0,0,0,.3);
+
+			&:active{
+				transform: translatey(.5rem);
+			}
+
+			img{
+				border-radius: 15%;
+			}
+		}
 	}
 }

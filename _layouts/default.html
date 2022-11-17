@@ -13,22 +13,20 @@
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 
 	<!-- Style -->
-	<link rel="stylesheet" href="./assets/main.css">
+	<link rel="stylesheet" href="./assets/css/style.css">
 
-	<title> {% if page.title %} {{ page.title }} {% else %} {{ site.title }} | {{ site.description }} {% endif%} </title>
+	<!-- jekyll plugins -->
+   {% feed_meta %}
+   {% seo %}
+
+	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif%}</title>
 </head>
 
 <body>
-	{% include header.html%}
-
-	{% include navbar.html%}
-
+	{% include header.html %}
+	{% include navbar.html %}
 	{{ content }}
-	
 	{% include social.html %}
-
-	<!-- {% include contato.html %} -->
-
 	{% include footer.html %}
 	
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

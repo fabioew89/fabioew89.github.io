@@ -1,0 +1,24 @@
+- name: Linkedin
+  link: https://linkedin.com/in/fabioew89/
+  icon: fab fa-linkedin
+
+- name: Instagram
+  link: http://bit.ly/2Qd7y0Y 
+  icon: fab fa-instagram
+
+- name: Steam
+  link: http://bit.ly/2OU6KOj 
+  icon: fab fa-steam
+
+---
+# - name: Discord
+#   link: http://bit.ly/2yApf41 
+#   icon: fab fa-discord
+
+# - name: Twitch
+#   link: http://bit.ly/2EtCPtO 
+#   icon: fab fa-twitch
+
+# - name: Youtube
+# link: http://bit.ly/2xU6t6z 
+# icon: fab fa-youtube

@@ -4,15 +4,17 @@ $default-hover: #ffd230;
 $default-bg-color: #2d3436;
 $default-transition: all 150ms ease;
 
+// Layouts
+@import "pages";
+
 // Imports
 @import "reset";
 @import "body";
-@import "profile_picture";
 @import "header";
 @import "navbar";
 @import "social";
 @import "footer";
-@import "contato";
 
-// Layouts
-@import "pages";
+nav.menu-validator{
+	color: $default-hover;
+}

@@ -4,9 +4,14 @@ description: Mais um maravilhoso site.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fabio.eti.br" # the base hostname & protocol for your site, e.g. http://example.com
 
+collections:
+  authors:
+    output: true    
+
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
-# permalink: /:title:output_ext
 permalink: /:title

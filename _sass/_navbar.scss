@@ -1,10 +1,8 @@
-nav.navbar{
-	padding: 0;
+nav.nav-main{
+	margin-bottom: 1rem;
 
-	display: flex;
-	flex-direction: row-reverse;
-
-	p{
-		margin: 0 .5rem;
+	a.menu-validator{
+		color: $default-hover;
+		text-decoration: underline;
 	}
 }
