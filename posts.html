@@ -1,0 +1,23 @@
+---
+layout: default
+title: Post
+comments: true
+---
+<!-- GETTING STARTED POST LIST -->
+<section class="container-like-terminal">
+	{%- include titlebar-buttons.html -%}
+
+	<!-- POST LIST -->
+	{%- if site.posts.size == 0 -%}
+		<h3>No post found :(</h3>
+	{%- else -%}
+		{% for post in site.posts %}
+			<h1 class="post-title">
+				<a href="{{ post.url }}">{{ post.title }}</a>
+			</h1>
+			<p class="post-date">
+				<time>{{ post.date | date_to_string }}</time>
+			</p>
+		{%- endfor -%}
+	{% endif %}	
+</section>

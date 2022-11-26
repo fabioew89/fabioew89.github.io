@@ -1,0 +1,35 @@
+section.container-like-terminal{
+	border: solid;
+	border-radius: 1rem;
+	
+	padding: 1rem;
+	background-color: #303030;
+	margin-bottom: 1rem;
+
+	div.titlebar-buttons-icon{
+		height: 1rem;
+		width: 1rem;
+		border-radius: 50%;
+		display: inline-block;
+
+		&:nth-child(1){
+			background-color: #ff554e;
+		}
+		&:nth-child(2){
+			background-color: #ffbd2e;
+		}
+		&:nth-child(3){
+			background-color: #28c941;
+		}
+
+	}
+	div span{
+		color: $default-color;
+		animation: blink 1s ease-in-out  infinite alternate;
+
+		@keyframes blink {
+			50%{ opacity: 0}
+			100%{ opacity: 1}
+		}
+	}
+}

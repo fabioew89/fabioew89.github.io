@@ -1,0 +1,15 @@
+<!-- 
+font: https://www.google.com/search?channel=fs&client=ubuntu&q=how+mani+words+a+person+can+read+per+minute
+1min == 180 words
+2min == 360 words
+3min == 540 words
+xmin == 700 words ???
+ -->
+
+{%- assign words = content | number_of_words -%}
+
+{% if words < 180 %}
+	{% assign timeToRead = "less than 1 minute to read" %}
+{% else %}
+	{% assign timeToRead = words | divided_by:180 | append:' Mitutes to read' %}
+{% endif %}
