@@ -1,7 +1,7 @@
 // Variaveis
 $default-color: #ffffff;
 $default-hover: #ffd230;
-$default-bg-color: #2d3436;
+$default-bg-color: #222f3e;
 $default-transition: all 150ms ease;
 
 // Layouts
@@ -10,17 +10,8 @@ $default-transition: all 150ms ease;
 // Imports
 @import "reset";
 @import "body";
+@import "terminal-layout";
 @import "header";
 @import "navbar";
 @import "social";
 @import "footer";
-
-body{
-	code{
-		color: $default-color;
-	}
-	nav.menu-validator{
-		color: $default-hover;
-	}
-
-}

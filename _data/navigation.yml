@@ -1,8 +1,8 @@
 - name: Home
   link: /
 
-#- name: About
-#  link: about
+- name: Posts
+  link: /posts
 
-#- name: Blog
-#  link: blog
+# - name: About
+#   link: /about

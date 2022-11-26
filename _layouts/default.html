@@ -15,7 +15,7 @@
 	<!-- Style -->
 	<link rel="stylesheet" href="./assets/css/style.css">
 
-	<!-- icon -->
+	<!-- favicon -->
 	<link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico">
 
 	<!-- jekyll plugins -->
@@ -25,7 +25,8 @@
 	<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif%}</title>
 </head>
 
-<body>
+<body class="container">
+
 	{% include header.html %}
 	{% include navbar.html %}
 	{{ content }}

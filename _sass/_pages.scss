@@ -1,3 +1,28 @@
+// Post list page.
+section.post-list{
+
+	.post-title{
+		margin: 0;
+		padding: 0;
+	}
+
+	p.post-date{
+		font-size: 10pt;
+	}
+}
+
+// Post content page
+article.post-content{
+
+	.post.title{
+		font-size: 30pt;
+		margin-bottom: 0;
+	}
+	p.post-date{
+		font-size: 10pt;
+	}
+}
+
 div.pages-layouts{
 	width: 50vw;
 	text-align: left;

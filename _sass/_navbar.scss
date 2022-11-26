@@ -1,8 +1,11 @@
 nav.nav-main{
 	margin-bottom: 1rem;
 
-	a.menu-validator{
+	text-align: center;
+		
+	.menu-validator{
 		color: $default-hover;
 		text-decoration: underline;
+		font-size: 14pt;
 	}
 }

@@ -1,17 +1,17 @@
 title: Fábio Ewerton
 email: fabioew89@gmail.com
-description: Mais um maravilhoso site.
+description: Mais um maravilhoso site em Jekyll :).
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://fabio.eti.br" # the base hostname & protocol for your site, e.g. http://example.com
-
-collections:
-  authors:
-    output: true    
 
 # Build settings
 plugins:
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+
+paginate: 3
+paginate_path: /page:num/
 
 permalink: /:title

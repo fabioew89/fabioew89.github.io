@@ -1,5 +1,5 @@
-<nav class="nav-main"> 
+<nav class="nav-main">
 	{% for item in site.data.navigation %}
-		<a href="{{ item.link }}" {% if page.url == item.link %} class="menu-validator" {% endif %}>{{ item.name }}</a>
+	<a href="{{ item.link }}" {% if page.url == item.link %} class="menu-validator" {% endif %}>{{ item.name }}</a>
 	{% endfor %}
 </nav>
